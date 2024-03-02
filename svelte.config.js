@@ -14,8 +14,9 @@ const config = {
 			// fallback: '404.html',
 		}),
 		paths: {
-			// base: ''
-			base: process.argv.includes('dev') ? '' : 'https://brignoledanilo.it/'
+			assets: '',
+			base: '',
+			relative: false,
 		},
 	}
 };
