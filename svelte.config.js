@@ -15,7 +15,7 @@ const config = {
 		}),
 		paths: {
 			// base: ''
-			base: process.argv.includes('dev') ? '' : 'https://brignoledanilo.it'
+			base: process.argv.includes('dev') ? '' : 'https://brignoledanilo.it/'
 		},
 	}
 };
