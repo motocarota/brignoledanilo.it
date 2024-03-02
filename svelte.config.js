@@ -1,5 +1,7 @@
 import adapter from '@sveltejs/adapter-static';
 
+const isDev = process.env.NODE_ENV === 'development';
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
@@ -15,7 +17,7 @@ const config = {
 		}),
 		paths: {
 			assets: '',
-			base: '',
+			base: isDev ? '' : '/',
 			relative: false,
 		},
 	}
