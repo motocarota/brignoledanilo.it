@@ -1,4 +1,4 @@
-<footer class="bg-slate-800 text-white p">
+<footer class="bg-slate-800 text-white p pb-10">
   <div class="flex justify-between max-w-screen-lg py-10 mx-auto font-thin">
     <p>Copyright© 2024. Brignole Danilo.</p>
     <div class="flex gap-5">
