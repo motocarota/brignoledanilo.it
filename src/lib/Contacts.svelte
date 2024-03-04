@@ -6,8 +6,8 @@
   ]
 </script>
 
-<section id="contact" class="max-w-screen-lg my-10 mx-auto">
-  <h1 class="my-10">Contatti</h1>
+<section id="contact" class="max-w-screen-lg my-10 mx-auto text-white p-10 rounded-lg" style="background-color: #ae3753">
+  <h1 class="">Contatti</h1>
 
   <div class="flex text-center flex-wrap">
     {#each links as link}
