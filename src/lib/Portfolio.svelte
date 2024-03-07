@@ -7,9 +7,11 @@
 
   const sections = [
     { id: 'oscuranti-zanzariere-velux', img: 6 },
+    { id: 'pergotende', img: 2 },
     { id: 'tapparelle', img: 10 },
     { id: 'tende-da-sole', img: 10 },
-    { id: 'zanzariere-finestre', img: 5 },
+    { id: 'tende-laterali-crystal', img: 2 },
+    { id: 'zanzariere-finestre', img: 4 },
     { id: 'zanzariere-plissettate', img: 9 },
     { id: 'zanzariere-portefinestre', img: 10 },
     { id: 'cancelli-di-sicurezza', img: 10 },
@@ -50,9 +52,11 @@
   )
 </script>
 
+<h2 class="text-center">Guarda la gallery</h2>
+<h5 class="text-center">Clicca per visualizzare altre foto</h5>
 <div id="services" class="max-w-screen-lg mx-auto my-5 flex flex-wrap justify-center">
   {#each images as i}
-    <button on:click={() => getGalleryImages(i)} class="m-5 rounded h-56 overflow-hidden">
+    <button on:click={() => getGalleryImages(i)} class="m-5 rounded h-56 overflow-hidden hover:outline">
       {i.title}
       <img src={i.src} alt={i.id} width={300} />
     </button>
