@@ -1,7 +1,8 @@
 <script>
-
 	import { Button, Input, Label, Textarea } from "flowbite-svelte";
-
+  
+  const key = import.meta.env.VITE_CF_API_KEY;
+  console.log({key})
 </script>
 
 
@@ -24,6 +25,6 @@
     <Textarea name="messagge" placeholder="" rows={4} required />
   </Label>
   
-  <input type="hidden" name="access_key" value={import.meta.env.VITE_CF_API_KEY}>
+  <input type="hidden" name="access_key" value={key}>
   <Button type="submit" class="w-full1" color="light">Invia</Button>
 </form>
