@@ -2,7 +2,6 @@
 	import { Button, Input, Label, Textarea } from "flowbite-svelte";
   
   const key = import.meta.env.VITE_CF_API_KEY;
-  console.log({key})
 </script>
 
 
