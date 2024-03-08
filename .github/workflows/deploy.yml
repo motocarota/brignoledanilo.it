@@ -55,3 +55,6 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+        env:
+          VITE_CF_API_KEY: ${{ secrets.VITE_CF_API_KEY }}
+        
