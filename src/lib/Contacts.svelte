@@ -1,4 +1,6 @@
 <script>
+	import Form from "./Form.svelte";
+
   const links = [
     { label: "Telefono", to: "tel:00393487646721", icon: 'phone', value: "348 / 7646721" },
     { label: "Email", to: "mailto:brignoledanilo@hotmail.com?subject=informazioni", icon: 'email', value: "brignoledanilo@hotmail.com" },
@@ -17,4 +19,8 @@
       </a>
     {/each}
   </div>
+</section>
+
+<section class="max-w-screen-lg my-10 mx-auto p-10 rounded-lg">
+  <Form />
 </section>
