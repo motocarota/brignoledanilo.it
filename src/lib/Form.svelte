@@ -12,7 +12,7 @@
   
   <Label class="space-y-2">
     <span>Email</span>
-    <Input type="email" name="email" placeholder="name@company.com" required />
+    <Input type="email" name="email" placeholder="" required />
   </Label>
   
   <Label class="space-y-2">
