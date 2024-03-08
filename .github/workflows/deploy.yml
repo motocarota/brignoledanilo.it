@@ -29,7 +29,7 @@ jobs:
       - name: build
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
-          CF_API_KEY: 'e5c2a8e3-be66-459d-b3e4-0049663f15bc'
+          VITE_CF_API_KEY: ${{ secrets.VITE_CF_API_KEY }}
         run: |
           pnpm run build
 
