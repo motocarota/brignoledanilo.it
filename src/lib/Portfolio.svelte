@@ -9,7 +9,7 @@
     { id: 'oscuranti-zanzariere-velux', img: 6 },
     { id: 'pergotende', img: 2 },
     { id: 'tapparelle', img: 10 },
-    { id: 'tende-da-sole', img: 10 },
+    { id: 'tende-da-sole', img: 8 },
     { id: 'tende-laterali-crystal', img: 2 },
     { id: 'zanzariere-finestre', img: 4 },
     { id: 'zanzariere-plissettate', img: 9 },
