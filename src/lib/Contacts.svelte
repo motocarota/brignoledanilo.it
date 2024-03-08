@@ -20,7 +20,7 @@
     {/each}
   </div>
 </section>
-
+<!-- 
 <section class="max-w-screen-lg my-10 mx-auto p-10 rounded-lg">
   <Form />
-</section>
+</section> -->
