@@ -56,7 +56,7 @@
 <h5 class="text-center">Clicca per visualizzare altre foto</h5>
 <div id="services" class="max-w-screen-lg mx-auto my-5 flex flex-wrap justify-center">
   {#each images as i}
-    <button on:click={() => getGalleryImages(i)} class="m-5 rounded h-56 overflow-hidden hover:outline">
+    <button on:click={() => getGalleryImages(i)} class="m-5 rounded h-56 overflow-hidden hover:border-b-4" style="border-color: #ae3753">
       {i.title}
       <img src={i.src} alt={i.id} width={300} />
     </button>
