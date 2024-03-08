@@ -24,6 +24,6 @@
     <Textarea name="messagge" placeholder="" rows={4} required />
   </Label>
   
-  <input type="hidden" name="access_key" value={import.meta.env.CF_API_KEY}>
+  <input type="hidden" name="access_key" value={import.meta.env.VITE_CF_API_KEY}>
   <Button type="submit" class="w-full1" color="light">Invia</Button>
 </form>
