@@ -18,6 +18,8 @@
 
 <div class="flex justify-center">
   <button on:click={prev}> &lt; </button>
-  <img class="mx-auto h-max" src={images[index].src} alt={images[index].alt}>
+  <button on:click={next}> 
+    <img class="mx-auto h-max" src={images[index].src} alt={images[index].alt}>
+  </button>
   <button on:click={next}> &gt; </button>
 </div>
