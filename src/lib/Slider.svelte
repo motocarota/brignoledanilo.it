@@ -5,12 +5,9 @@
   let index = 0;
 
   function next() {
-    console.log('n', {index})
-
     index = (index < images.length -1) ? index +1 : 0
   }
   function prev() {
-    console.log('p', {index})
     index = index > 0 ? (index-1) : index
   }
 
