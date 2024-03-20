@@ -5,11 +5,11 @@
   let index = 0;
 
   function next() {
-    index = (index < images.length -1) ? index +1 : 0
+    index = (index < images.length - 1) ? index + 1 : 0
   }
 
   function prev() {
-    index = index > 0 ? (index-1) : index
+    index = index > 0 ? (index - 1) : index
   }
 </script>
 
