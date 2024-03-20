@@ -1,7 +1,6 @@
 <script>
   import _chunk from 'lodash/chunk';
-  import { Modal } from 'flowbite-svelte';  
-	import Slider from "../lib/Slider.svelte";
+  import Slider from './Slider.svelte';
 
   let currentSection = null;
 
@@ -35,8 +34,7 @@
       return
     }
     
-    currentSection = {
-      ...section,
+    return {
       label: section.title,
       images: section.images,
     }
@@ -50,19 +48,17 @@
       images: getImages({ id, img })
     })
   )
+
+  const galleryImages = images.map(
+    (i) => getGalleryImages(i)
+  )
+  console.log({images, galleryImages})
 </script>
 
 <h2 class="text-center">Guarda la gallery</h2>
 <h5 class="text-center">Clicca per visualizzare altre foto</h5>
-<div id="services" class="max-w-screen-lg mx-auto my-5 flex flex-wrap justify-center">
-  {#each images as i}
-    <button on:click={() => getGalleryImages(i)} class="m-5 rounded h-56 overflow-hidden hover:border-b-4" style="border-color: #ae3753">
-      {i.title}
-      <img src={i.src} alt={i.id} width={300} />
-    </button>
+<div id="services" class="max-w-screen-lg mx-auto my-5 flex flex-wrap justify-center align-middle">
+  {#each galleryImages as i}
+    <Slider images={i.images} label={i.label}/>
   {/each}
 </div>
-
-<Modal bind:open={currentSection} outsideclose size="xl" class="bg-slate-800">
-  <Slider title={currentSection.title} images={currentSection.images} />
-</Modal>
