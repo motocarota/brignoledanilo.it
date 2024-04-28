@@ -8,10 +8,10 @@
     { id: 'oscuranti-zanzariere-velux', img: 6 },
     { id: 'pergotende', img: 2 },
     { id: 'tapparelle', img: 10 },
-    { id: 'tende-da-sole', img: 8 },
-    { id: 'tende-laterali-crystal', img: 2 },
+    { id: 'tende-da-sole', img: 10 },
+    { id: 'tende-laterali-crystal', img: 5 },
     { id: 'zanzariere-finestre', img: 4 },
-    { id: 'zanzariere-plissettate', img: 9 },
+    { id: 'zanzariere-plissettate', img: 16 },
     { id: 'zanzariere-portefinestre', img: 10 },
     { id: 'cancelli-di-sicurezza', img: 10 },
   ]
@@ -55,7 +55,7 @@
   console.log({images, galleryImages})
 </script>
 
-<h2 class="text-center">Guarda la gallery</h2>
+<h2 class="text-center my-4">Guarda la gallery</h2>
 <h5 class="text-center">Clicca per visualizzare altre foto</h5>
 <div id="services" class="max-w-screen-lg mx-auto my-5 flex flex-wrap justify-center align-middle">
   {#each galleryImages as i}

@@ -19,7 +19,6 @@
 </script>
 
 <div class="my-5">
-  <h4 class="text-center">{label}</h4>
   <div class="flex justify-center align-middle" style="max-height: 226px; overflow: hidden;">
     <button on:click={prev}> <LeftIcon /> </button>
     <a href={images[index]?.src ?? "#"} target="_blank"> 
@@ -27,4 +26,5 @@
     </a>
     <button on:click={next}> <RightIcon /> </button>
   </div>
+  <p class="text-center text-slate-600">{label}</p>
 </div>
