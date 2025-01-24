@@ -5,12 +5,12 @@
 	let currentSection = null;
 
 	const sections = [
-		{ id: 'tende-da-sole', img: 9 },
-		{ id: 'tapparelle', img: 10 },
+		{ id: 'tende-da-sole', img: 51 },
+		{ id: 'tapparelle', img: 17 },
 		{ id: 'pergotende', img: 2 },
 		{ id: 'tende-laterali-crystal', img: 5 },
 		{ id: 'zanzariere-finestre', img: 2 },
-		{ id: 'zanzariere-portefinestre', img: 10 },
+		{ id: 'zanzariere-portefinestre', img: 19 },
 		{ id: 'zanzariere-plissettate', img: 16 },
 		{ id: 'cancelli-di-sicurezza', img: 10 },
 		{ id: 'oscuranti-zanzariere-velux', img: 6 }
