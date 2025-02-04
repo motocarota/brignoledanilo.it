@@ -5,9 +5,9 @@
 	let currentSection = null;
 
 	const sections = [
-		{ id: 'tende-da-sole', img: 51 },
+		{ id: 'tende-da-sole', img: 50 },
 		{ id: 'tapparelle', img: 17 },
-		{ id: 'pergotende', img: 2 },
+		{ id: 'pergotende', img: 3 },
 		{ id: 'tende-laterali-crystal', img: 5 },
 		{ id: 'zanzariere-finestre', img: 2 },
 		{ id: 'zanzariere-portefinestre', img: 19 },
