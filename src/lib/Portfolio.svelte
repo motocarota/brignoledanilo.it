@@ -7,7 +7,7 @@
 	const sections = [
 		{ id: 'tende-da-sole', img: 49 },
 		{ id: 'tapparelle', img: 17 },
-		{ id: 'pergotende', img: 3 },
+		{ id: 'pergotende', img: 9 },
 		{ id: 'tende-laterali-crystal', img: 5 },
 		{ id: 'zanzariere-finestre', img: 2 },
 		{ id: 'zanzariere-portefinestre', img: 19 },
