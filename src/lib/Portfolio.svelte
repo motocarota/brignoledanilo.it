@@ -5,7 +5,7 @@
 	let currentSection = null;
 
 	const sections = [
-		{ id: 'tende-da-sole', img: 50 },
+		{ id: 'tende-da-sole', img: 49 },
 		{ id: 'tapparelle', img: 17 },
 		{ id: 'pergotende', img: 3 },
 		{ id: 'tende-laterali-crystal', img: 5 },
