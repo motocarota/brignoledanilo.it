@@ -19,9 +19,9 @@
 	function getImages({ id, img }) {
 		return new Array(img).fill(0).map((_, index) => {
 			return {
-				alt: id,
+				alt: id.split('-'),
 				src: `/img/${id}/${index + 1}.webp`,
-				title: id
+				title: id.split('-')
 			};
 		});
 	}
