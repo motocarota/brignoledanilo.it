@@ -39,9 +39,9 @@
 	}
 
 	const images = sections.map(({ id, img }) => ({
-		alt: id,
+		alt: id.split('-'),
 		src: `/img/${id}/1.webp`,
-		title: id.replaceAll('-', ' '),
+		title: id.split('-'),
 		images: getImages({ id, img })
 	}));
 
